@@ -1,0 +1,85 @@
+/* Style inputs with type="text", select elements and textareas */
+body{
+  background-color: #bbce98;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+  margin: 5% auto 2%;
+}
+
+label{
+  font-family: 'Archivo Black', sans-serif;
+}
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #d84618;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #b46530;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact{
+  letter-spacing: 2rem;
+}
+
+.leaf1{
+  position: absolute;
+  width:17%;
+  right: -5px;
+  top: 0;
+}
+
+.leaf2{
+  position: absolute;
+  width:17%;
+  left:0;
+  bottom: 0;
+}
+.top-container{
+  position: relative;
+  width: 100%;
+}
+
+.bottom-contanier{
+  position: relative;
+  width: 100%;
+}

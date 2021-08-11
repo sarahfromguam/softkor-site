@@ -1,0 +1,112 @@
+/* tags */
+
+a{
+  text-decoration: none;
+  text-align: center;
+  font-family:
+}
+
+a:hover{
+  color: red;
+}
+
+
+body{
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+h1{
+  color: white;
+  font-family: 'New Rocker', sans-serif;
+  font-size: 400%;
+  text-align: center;
+  letter-spacing: 1.5rem;
+}
+
+h2{
+  color: white;
+  font-family: 'New Rocker', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* Classes */
+
+.center-container{
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+  margin-top: 3%;
+  position: relative;
+}
+
+.crane1{
+  position:absolute;
+  transform: rotate(180deg);
+  top: 1rem;
+  right: 14.8rem;
+  width: 17%;
+
+}
+
+.copy{
+  margin-top: 2%;
+
+}
+
+.copyright{
+    font-size: 1rem;
+    font-family: 'New Rocker', sans-serif;
+    margin: 0% auto 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.crane2{
+  left: 13.4rem;
+  top: 11rem;
+  position: absolute;
+  width: 17%;
+
+}
+
+.links {
+  font-family: Monda;
+  color: white;
+  margin: 2rem 2.2rem;
+  font-size: 1.3rem;
+}
+
+.redpin {
+  display:block;
+  position: absolute;
+  float:left;
+  left: 16.35rem;
+  top: 10.5rem;
+  width: 15%;
+  margin: 0;
+
+}
+
+
+.reddirt:hover{
+  color: red;
+}
+
+.top-container{
+  margin: 0 auto;
+  width: 55%;
+  border: 0.5px groove red;
+  border-style: groove;
+}

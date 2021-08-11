@@ -1,0 +1,60 @@
+/*  tabs */
+a {
+  font-family: Monda;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  margin: 2rem 2.2rem;
+  font-size: 1.3rem;
+}
+
+a:hover{
+  color: white;
+}
+body{
+  background-color: black;
+  width: 100%;
+}
+
+img{
+  width: 100%;
+  margin-top: 2.5rem;
+  border: 0.5rem double darkred;
+}
+
+h1{
+  font-family: 'New Rocker', fantasy;
+  font-size: 4rem;
+  color: #c70039;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+
+/* classes */
+
+.column1{
+  float: left;
+  margin-left: 9%;
+  margin-right: 3.5%;
+  width: 25%;
+}
+
+.column2{
+  float: left;
+  margin-right: 3.5%;
+  width: 25%;
+}
+
+.column3{
+  float: right;
+  margin-right: 9%;
+  width: 25%;
+  margin-bottom: 5%;
+}
+
+.mid-container{
+  background-color: red;
+  margin-top: 2%;
+}

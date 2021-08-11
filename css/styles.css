@@ -1,0 +1,135 @@
+/* tags */
+
+body{
+  background-color: #bbce98;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+hr {
+  background-color: #cee3a7;
+  border-style: none;
+}
+
+/* ids */
+.center-container{
+  display: flex;
+  float:left;
+  height: 60%;
+  width: 40%;
+  margin-bottom: 5%;
+}
+
+.centerpiece{
+  display: inline-block;
+  margin: 5% 0 auto 0;
+  width: 100%;
+}
+
+.centerpiece:hover{
+  transform: none rotate(0);}
+
+.copy{
+  margin-top: 30%;
+}
+
+.copyright{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 20% auto 0;
+    text-align: center;
+    width: 100%;
+    color: #d84618;
+}
+
+.gallery{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+@keyframes pulse{
+  from { transform: scale(1);}
+  50% {transform: scale(1.2);}
+  to {transform: scale(1);}
+}
+
+.labels{
+  display: inline-block;
+  width: 100%;
+}
+
+.labels:hover{
+  transform: scale(1.1) rotate(4deg);
+}
+
+.leaf1{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 17%;
+}
+
+.leaf2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 17%;
+}
+
+.left-container{
+  float:left;
+  height: 53%;
+  margin-top: 5.2%;
+  margin-left: 8%;
+  width: 22%;
+  margin-bottom: 5%;
+}
+
+.main-section{
+  height: 100%;
+}
+
+.reference{
+  display: block;
+  margin: 0 auto;
+}
+
+.right-container{
+  float:right;
+  height: 53%;
+  margin-right: 8%;
+  margin-top: 5%;
+  width:22%;
+  margin-bottom: 5%;
+
+}
+
+.softie{
+  display:block;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.softie:hover{
+  animation: pulse 1s infinite;
+}
+
+.top-container{
+    height: 20%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.bottom-container{
+  margin-top: 10%;
+  background-color: yellow;
+}
